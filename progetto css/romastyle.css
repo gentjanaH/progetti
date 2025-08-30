@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Domine:wght@400..700&family=Prata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+h6 {
+    font-family: 'Prata', serif;
+    font-size: 14px;
+    color: #d61919;
+    font-weight: 400;
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0;
+    border-radius: 6px;
+}
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+        
+        .link-autore {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .link-autore:hover {
+            text-decoration: underline;
+    }
+        
+        
+        .main-section {
+            max-width: 800px;
+            margin: 0;
+            padding: 20px;
+        }
+        .image-container {
+            max-height: 500px;
+        background-image: url('https://content.api.news/v3/images/bin/495a3921e980d7ef9217c76f65679f9f'); 
+        background-position: auto;
+        color: white;
+        }
+
+        #monunment-list {
+            padding-left: 22px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            margin-bottom: 1px;
+            color: #dfdfdf;
+            background: linear-gradient(90deg, #f69b51, #f1b883, #e0c191);
+            
+
+        }
+
+        .footer {
+            text-align: center; 
+            font-size: 14px; 
+            color: white;
+            padding: 16px; 
+            background-color: black;  
+            margin-top: 20px;
+        }
+
+        
+        #relateted-list li {
+
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 22px;
+            margin-bottom: 1px;
+            list-style-type: none;
+            
+            
+            
+            
+        }
+        
+        

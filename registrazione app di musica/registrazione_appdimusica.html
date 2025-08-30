@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music to Go</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #acdec3, #5d7840);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            color: rgb(6, 5, 5);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0;
+            color: rgb(15, 28, 67);
+            text-shadow: 2px 2px 4px #077449;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 0;
+            color: rgb(15, 28, 67)
+        
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+            color: rgb(15, 28, 67)
+        
+        }
+        input {
+            width: 300px;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 8px;
+            border: 1px solid #cc8c42;
+        }
+        button {
+            width: 320px;
+            padding: 10px;
+            background-color: rgb(15, 28, 67);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff8a00;
+        }
+
+        .checkbox-group, .radio-group {
+            margin-top: 10px;
+            
+        }
+        .checkbox-group label,
+        .radio-group label {
+            font-weight: normal;
+            margin-right: 10px;
+            color: rgb(15, 28, 67);
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 0;
+
+
+            
+        }
+    
+    </style>
+    
+</head>
+
+<body>
+    
+    <h1>Your Music to Go</h1>
+    <h2>REGISTRATI</h2>
+    <div>
+        <input type="text" placeholder= "Il tuo nome">
+    </div>
+
+    <div>
+        <input type="text" placeholder="Il tuo cognome">
+    </div>
+    
+    <div>
+        <input type="date" placeholder="Nato il">
+    </div>
+    
+    <div>
+        <input type="number" placeholder="Cellulare">
+    </div>
+    
+    <div>
+        <input type="mail" placeholder= "la tua mail">  
+    </div>
+    <div>
+        <input type="password" placeholder="la tua password">
+    </div>
+
+        <div class="checkbox-group">
+            
+            <h3>Gusti musicali:</h3>
+            <label><input type="checkbox" name="genere" value="rock"> Rock</label>
+            <label><input type="checkbox" name="genere" value="pop"> Pop</label>
+            <label><input type="checkbox" name="genere" value="jazz"> Jazz</label>
+            <label><input type="checkbox" name="genere" value="classica"> Classica</label>
+            <label><input type="checkbox" name="genere" value="hiphop">Hip Hop</label>
+            
+        </div>
+    
+        </div>
+
+
+    <div> 
+        <p>Accettazione termini e condizioni:</p>
+    <input type="radio" accettazione> Accetto
+    </div>
+    <button onclick="alert ('registrazione effettuata')">INVIA</button>
+</body>
+</html>

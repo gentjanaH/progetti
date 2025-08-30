@@ -1,0 +1,117 @@
+for-registrazione-app-di-musica <!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione Music Stream</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff8a00, #e52e71);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #e52e71;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], 
+        input[type="email"], 
+        input[type="password"], 
+        input[type="date"], 
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .checkbox-group, .radio-group {
+            margin-top: 10px;
+        }
+        .checkbox-group label, 
+        .radio-group label {
+            font-weight: normal;
+            display: block;
+        }
+        button {
+            margin-top: 15px;
+            width: 100%;
+            background: #e52e71;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff8a00;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Registrazione Music Stream</h2>
+    <form id="registerForm">
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label>Cognome:</label>
+        <input type="text" name="cognome" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Password:</label>
+        <input type="password" name="password" required>
+
+        <label>Data di nascita:</label>
+        <input type="date" name="birthdate" required>
+
+        <label>Numero di telefono:</label>
+        <input type="number" name="telefono" required>
+
+        <div class="checkbox-group">
+            <label>Gusti musicali:</label>
+            <label><input type="checkbox" name="genere" value="rock"> Rock</label>
+            <label><input type="checkbox" name="genere" value="pop"> Pop</label>
+            <label><input type="checkbox" name="genere" value="jazz"> Jazz</label>
+            <label><input type="checkbox" name="genere" value="classica"> Classica</label>
+        </div>
+
+        <div class="radio-group">
+            <label>Accettazione Termini e Condizioni:</label>
+            <label><input type="radio" name="termini" required> Accetto</label>
+        </div>
+
+        <button type="submit">Invia registrazione</button>
+    </form>
+</div>
+
+<script>
+    document.getElementById("registerForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Evita l'invio reale
+        alert("Registrazione inviata!");
+    });
+</script>
+
+</body>
+</html>

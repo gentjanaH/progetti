@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Domine:wght@400..700&display=swap');
+
+p {
+    padding: 18px;
+    line-height: 1.6;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 18px;
+    font-family:"Domine", serif;
+    background-color: #a3dad9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #813384cc;
+}
+.contatti {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 18px;  
+    background: linear-gradient(to left,#b6e6e6 ,#b47ab7cc);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #813384cc;
+    font-family: "Domine", serif;
+}
+
+img {
+    width: 100%;
+}
+
+h1,h2,h3 {
+    font-family: "DM Serif Text", serif;
+    color: #813384cc;
+}
